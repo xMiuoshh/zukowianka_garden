@@ -7,6 +7,8 @@ environment:
   sdk: ^3.12.2
 
 dependencies:
+  dart_either: ^2.1.0
+  equatable: ^2.1.0
   flutter:
     sdk: flutter
 
