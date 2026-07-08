@@ -6,14 +6,14 @@ class AppColor {
   static const Color appBarBlue = Color(0x1F75FFFF);
   
 
-List <Color> colors = [Colors.red, Colors.black];
   //gradients
-  static LinearGradient get gradientKafelki => LinearGradient(
-    colors: colors;
+  static const LinearGradient gradientKafelki = LinearGradient(
+    colors:<Color>[Color(0xDFE0E4FF), Color(0xFEFEFEFF)]);
  
-  static const LinearGradient gradientSwitchButton = LinearGradient(
+  static const LinearGradient gradientSwitchButtonOn = LinearGradient(
     colors: <Color>[Color(0x0051E3FF), Color(0x0ADFF4FF)
   ]);
+
 
 
 }
